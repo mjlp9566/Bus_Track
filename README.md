@@ -32,7 +32,9 @@
 
 Image credits:https://www.pcwdld.com/
 <p>We have used MQTT to get data from the Hardware,in the esp32 we configure MQTT Client by connecting to HiveMQtt Server and publish the data received from GPS to the corresponding topic(TOPICS are UniqueName example:id/bus1,each bus have unique topic)so that the users connected to the same HiveMqtt server can receive the data if the subsribed to the respective topic.<p> 
-<pre><b>NOTE : </b>As of now we are not having esp32 microcontroller we have used WOKWI(online simultor)</pre>  
+<pre><b>NOTE : </b>As of now we are not having esp32 microcontroller we have used WOKWI(online simultor) and the <b>lat,lon data generated from esp32 simulator is manually incremented</b>
+The code can me modified to data from gps and published to server
+</pre>  
 
 <h2>Software</h2>
 <pre><b>NOTE : </b>TOPICS=>id/bus(n)</pre>
