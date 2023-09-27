@@ -7,7 +7,8 @@
  <li>BUS(SOLUTION-CHALLENGE).zip->project file<br></li>
  <li>bus1.ino,bus2.ino->programs for esp32<br></li>
  </ul>
- 
+ The command `pwd` stands for "Print Working Directory".
+
 <h3>Modules</h3>
 <ol>
   <li>Track buses</li>
